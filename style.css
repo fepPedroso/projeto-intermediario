@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+}
+.page {
+  width: 1280px;
+  margin: auto;
+  background-color: aliceblue;
+}
+
+#logo {
+  /* width: 103px;
+  height: 26px;
+  background-color: #69B99D;*/
+  position: absolute;
+  left: 122px;
+  top: 65px;
+  bottom: 87.36%;
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #89C5CC;
+
+  mix-blend-mode: normal;
+
+}
+
+.list {
+  display: flex;
+  position: absolute;
+  left: 870px;
+  top: 65px;
+  gap: 40px;
+
+}
+
+.home {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1F1534;
+
+}
+
+.sobre {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1F1534;
+
+  opacity: 0.5;
+}
+
+.treinar {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1F1534;
+
+  opacity: 0.5;
+}
+
+.titulo {
+  position: absolute;
+  left: 122px;
+  right: 52.5%;
+  top: 27.36%;
+  bottom: 57.08%;
+
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+
+  mix-blend-mode: normal;
+}
+
+.subtitulo {
+  position: absolute;
+  left: 122px;
+  right: 56.41%;
+  top: 48.47%;
+  bottom: 39.86%;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+  mix-blend-mode: normal;
+}
+
+.botao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 14px 8px;
+  gap: 10px;
+
+  position: absolute;
+  width: 182px;
+  height: 56px;
+  left: 122px;
+  top: 473px;
+  background: #69B99D;
+  border-radius: 4px;
+}
+
+.imagem {
+  position: absolute;
+  left: 710px;
+  right: 152px;
+  top: 146px;
+  bottom: 140px;
+}
+
+.balls {
+  position: absolute;
+  left: 93.28%;
+  right: 0%;
+  top: 88.17%;
+  bottom: 1.0%;
+
+  opacity: 3;
+}
+
+footer {
+  position: absolute;
+  left: 26.87%;
+  right: 26.88%;
+  top: 91.94%;
+  bottom: 4.17%;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
